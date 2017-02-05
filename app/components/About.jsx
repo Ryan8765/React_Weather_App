@@ -1,10 +1,16 @@
 var React = require('react');
+var {Link} = require('react-router');
+
 
 
 var About = (props) => {
 
 	return (
-		<h3>About Component</h3>
+		<div>
+
+			<h1 className="text-center">About</h1>
+			<p>Get your local Weather!  Simply search for your city of interest.</p>
+		</div>
 	);
 
 };
